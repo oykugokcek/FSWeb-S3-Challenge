@@ -1,141 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="tr">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-	<meta charset="utf-8">
+    <title>Sprint Challenge - Anasayfa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5b12ffad4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-	<title>Sprint Challenge - Anasayfa</title>
+  <body>
+    <div>
+      <!-- header -->
+      <header>
+        <div class="introduction">
+          <h1>ERGİNEER <span class="ergineer">BAR VE MANGAL</span></h1>
+          <nav class="menu-items">
+            <a href="menu.html" class="menu-link">Menü</a>
+            <a href="reservation.html" class="menu-link">Rezervasyonlar</a>
+            <a href="specialoffers.html" class="menu-link">Özel Teklifler</a>
+            <a href="" class="contact.html">İletişim</a>
+          </nav>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </header>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
+      <!-- gallery section -->
+      <section class="gallery">
+        <div>
+          <h2>YEMEKLERİMİZ</h2>
+          <div class="food-images">
+            <img src="img/food-avocadotoast.jpg" alt="avocado" />
+            <img src="img/food-burger.jpg" alt="burger" />
+            <img src="img/food-poutine.jpg" alt="poutine" />
+            <img src="img/food-ribs.jpg" alt="ribs" />
+            <img src="img/food-sandwich.jpg" alt="sandwich" />
+            <img src="img/food-sausage.jpg" alt="sausage" />
+            <img src="img/food-steak.jpg" alt="steak" />
+            <img src="img/food-tacos.jpg" alt="tacos" />
+            <img src="img/food-wings.jpg" alt="wings" />
+          </div>
+        </div>
+      </section>
 
-<body>
-	<div>
-		<!-- header -->
-		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
-			</div>
-		</header>
+      <!-- about section -->
+      <section class="about">
+        <div class="about-container">
+          <div>
+            <h2>HAKKIMIZDA</h2>
+          </div>
 
-		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>YEMEKLERİMİZ</h2>
+          <div class="text">
+            <h3>Güzel Yemekler, Güzel İnsanlar</h3>
+            <div>
+              Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short
+              ribs tail dolore, fatback in tempor meatloaf pig sunt porchetta
+              beef. Ad hamburger pig veniam, andouille exercitation cillum
+              eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta
+              frankfurter sed, est t-bone porchetta capicola id tri-tip cillum
+              cow leberkas do minim. Sausage ea velit boudin laboris dolore
+              short loin corned beef commodo jowl beef dolor tempor. Dolor culpa
+              enim in meatloaf, ham mollit shankle duis chicken dolore andouille
+              do tenderloin qui.
+            </div>
+          </div>
 
-				img/food-avocadotoast.jpg
+          <div id="bartender" class="pic"></div>
+        </div>
+      </section>
 
-				img/food-burger.jpg
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				img/food-poutine.jpg
+      <!-- contact section -->
+      <section class="contact">
+        <div class="contact-container">
+          <h2>BİZE ULAŞIN</h2>
 
-				img/food-ribs.jpg
+          <div class="info">
+            <div class="address">
+              <h3>Adres</h3>
 
-				img/food-sandwich.jpg
+              <address>
+                <p>100. sokak</p>
+                <p>Oran, Ankara</p>
+              </address>
+            </div>
 
-				img/food-sausage.jpg
+            <div class="hours">
+              <h3>Saatler</h3>
 
-				img/food-steak.jpg
+              <div>
+                <p>Pazartesiden Cumaya:</p>
+                <p>10:00 - 22:00</p>
+                <p>Friday and Saturday:</p>
+                <p>10:00 - 02:00</p>
+              </div>
+            </div>
 
-				img/food-tacos.jpg
+            <div class="contacts">
+              <h3>İletişim</h3>
 
-				img/food-wings.jpg
-			</div>
-		</section>
+              <div>
+                <a id="phone" href="tel:999-999-9999">999-999-9999</a>
+                <a id="email" href="mailto:restoran@boomer.com"
+                  >restoran@ergineer.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<!-- spacer -->
-		<div class="spacer"></div>
+      <!-- spacer -->
+      <div class="spacer-sm"></div>
 
-		<!-- about section -->
-		<section class="about">
-			<div class="about-container">
-				<h2>HAKKIMIZDA</h2>
+      <!-- footer -->
+      <footer>
+        <!-- email signup -->
+        <div class="finish">
+          <div class="mail">
+            <p>Mail listemize katılın!</p>
+            <input type="text" placeholder="E-posta Adresi" width="100px" />
+            <input type="button" value="Üye Ol" />
+          </div>
+          <!-- nav -->
+          <nav>
+            <a href="" class="menu-link">Menü</a>
+            <a href="" class="menu-link">Rezervasyonlar</a>
+            <a href="" class="menu-link">Özel Teklifler</a>
+            <a href="" class="menu-link">İletişim</a>
+          </nav>
+        </div>
 
-				<div id="cooks" class="pic">
-				</div>
-
-				<div class="text">
-					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
-						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
-						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
-						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
-				</div>
-
-				<div id="bartender" class="pic">
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer"></div>
-
-		<!-- contact section -->
-		<section class="contact">
-			<div class="contact-container">
-				<h2>BİZE ULAŞIN</h2>
-
-				<div class="info">
-					<div class="address">
-						<h3>Adres</h3>
-
-						<address>
-							<p>100. sokak</p>
-							<p>Oran, Ankara</p>
-						</address>
-					</div>
-
-					<div class="hours">
-						<h3>Saatler</h3>
-
-						<div>
-							<p>Pazartesiden Cumaya:</p>
-							<p>10:00 - 22:00</p>
-							<p>Friday and Saturday:</p>
-							<p>10:00 - 02:00</p>
-						</div>
-					</div>
-
-					<div class="contacts">
-						<h3>İletişim</h3>
-
-						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer-sm"></div>
-
-		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
-		</footer>
-	</div>
-</body>
-
+        <!-- copyright -->
+        <div class="copyright">
+          ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
