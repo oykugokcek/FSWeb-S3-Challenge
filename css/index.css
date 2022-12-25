@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 header {
     width: auto;
-    height: auto;
+    height: 100vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
@@ -86,7 +86,7 @@ h1 {
 
 .introduction {
 background-color:rgb(0, 4, 17, .8);
-height: 30vh;
+height: auto;
 }
 
 .menu-items {
@@ -104,13 +104,14 @@ height: 30vh;
     gap: 2.5vh;
     font-size: 2rem;
     align-content: flex-end;
+    padding-bottom: 10px;
 }
 h2 {
     font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 
 /* p, a {
@@ -156,7 +157,7 @@ h3 {
 /* about us section */
 .about {
     width: 100%;
-    height: auto;
+    height: 85vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size:cover;
@@ -178,24 +179,27 @@ h3 {
 
 .text {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    padding: 50px 0;
+    justify-content: center;
+    padding: 50px 150px;
 }
 
 .about h3 {
-    font-size: 2.5rem;
+
     margin-bottom: 10px;
     
 } 
 .about-container .text {
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     
+    
 }
-.about div {
+
+
+/* .about div {
     font-size: 1.5rem;
-}
+} */
 /* contact us section */
 .contact {
     text-align: center;
@@ -248,15 +252,15 @@ footer {
     width: auto;
     height: auto;
     padding-top: 2.5vh;
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: rgb(0, 4, 17);
 }
 
 .finish{
     display: flex;
-    
     font-size: 2rem;
     margin: 0 40px;
+    justify-content: space-around;
 }
 
 .finish nav {
@@ -267,19 +271,18 @@ footer {
 .finish nav a {
     padding: 0 15px;
 }
-input[type="text"]  {
+/* input[type="text"]  {
     width: 250px;
-}
+} */
 
 .mail {
     width: 40%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 60px;
 }
 
 .mail p {
-    padding-left: 40px;
+    padding-left: 50px;
 }
 .copyright {
     padding-right: 50px;
@@ -342,13 +345,25 @@ input[type="text"]  {
     .about-container {
         height: 100%;
         width: 100%;
-        justify-content: space-evenly;
+        
+        padding: 50px;
+        
     }
 
+    
+
     .text {
+        height: 70%;
         vertical-align: none;
-        font-size: 3rem;
+        padding: 0 5px;
+        font-size: 2.5rem;
+        
     } 
+    
+    .about h3 {
+        padding-top: 100px;
+        font-size: 4rem;
+    }
 
     .about {
         height: 200vh;
@@ -357,6 +372,7 @@ input[type="text"]  {
     .about h2 {
         width: 100%;
         padding-top: 5vh;
+    
     }
     
     
@@ -366,12 +382,17 @@ input[type="text"]  {
     /* contact us section */
     .contact h3 {
         padding-top: 2.5vh;
+        font-size: 4rem;
     }
     
     .info {
         flex-wrap: wrap;
     }
     
+    .info p, .contacts div {
+        font-size: 1.75rem;
+    }
+
     .address {
         width: 100%;
         padding-bottom: 2.5vh;
@@ -393,4 +414,16 @@ input[type="text"]  {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+
+    .mail {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
+    .finish nav, .finish {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 }
